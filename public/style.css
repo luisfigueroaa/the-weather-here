@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 { 
+    font-weight: bolder;
+}
+
+p {
+    padding: 10px;
+    background-color: #87e78b;
+}
