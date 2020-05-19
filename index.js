@@ -6,6 +6,13 @@ require('dotenv').config();
 
 // console.log(process.env);
 
+// const app = express();
+// app.listen(3000, () =>
+//   console.log('Starting server: http://localhost:3000')
+// );
+// app.use(express.static('public'));
+// app.use(express.json({ limit: '1mb' }));
+
 const app = express();
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
